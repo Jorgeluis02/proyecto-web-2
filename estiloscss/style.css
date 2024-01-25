@@ -1,0 +1,92 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(25, 35, 56);
+    /* background: url('quince.jpg'); */
+}
+ header {
+    background: url('confiesa.jpg');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+  section {
+    max-width: 1000px;
+    margin-left:  128px;
+    padding: 40px 30px 10px 0px;
+    display:flex;
+    justify-content: center;
+}
+
+section h1 {
+    font-size: 30px;
+    color: rgba(53, 57, 55, 0.938);
+}
+
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(53, 57, 55, 0.938);
+    padding-right: 8px;
+}
+
+nav a:hover {
+    color: rgb(250, 255, 250);
+ }
+
+ nav{
+    text-align: center; 
+} 
+
+nav :hover {
+    transition: all ease 900ms;
+    transform: scale(1.2);
+}
+
+
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 25px;
+    
+
+}
+
+.content a {
+    font-size: 35px;
+    color: rgba(212, 211, 211, 0.662);
+    
+    
+}
+
+.one :hover {
+    transition: all ease 900ms;
+    transform: scale(1.2);
+    color:rgba(188, 6, 39, 0.851)
+    
+}
+.two :hover {
+    transition: all ease 900ms;
+    transform: scale(1.2);
+    color: rgba(8, 26, 229, 0.74);
+}
+.tree :hover {
+    transition: all ease 900ms;
+    transform: scale(1.2);
+    color: rgba(0, 0, 0, 0.831);
+}
+.four :hover {
+    transition: all ease 900ms;
+    transform: scale(1.2);
+    color: rgba(0, 136, 255, 0.717);
+}
